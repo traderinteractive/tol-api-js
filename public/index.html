@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Example API Page</title>
+  </head>
+  <body>
+    View the console for the output.
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="/tol.js"></script>
+    <script type="text/javascript">
+      TOL.client.id = 'yourClientId';
+      TOL.client.secret = 'yourClientSecret';
+
+      TOL.request({
+        path: 'realms',
+        success: function(data) {
+          console.log(data);
+        }
+      });
+    </script>
+  </body>
+</html>

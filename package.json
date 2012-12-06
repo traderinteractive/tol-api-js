@@ -1,0 +1,15 @@
+{
+  "name": "tol-api",
+  "description": "A jQuery-based client for accessing the TraderOnline API.",
+  "version": "1.1.0",
+  "author": "Spencer Rinehart",
+  "email": "anubis@overthemonkey.com",
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "devDependencies": {
+    "express": ">=3.0.0rc2",
+    "hbs": ">=1.0.5"
+  }
+}
